@@ -1,0 +1,2 @@
+#for icc compilers this will run faster 
+icc -O3 -xHost -o msnsam msnsam.c rand1.c streec.c -lm
